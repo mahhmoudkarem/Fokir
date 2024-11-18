@@ -1,0 +1,360 @@
+
+@media (min-width:576px) and (max-width : 768px ) {
+    .nav a {
+        display: none;
+    }
+    .nav i{
+        visibility: visible;
+        color: white;
+        padding-left: 140px;
+        font-size: 20px;
+    }
+    .about{
+        height: 220vb;
+    }
+    .photo{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .content-about{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .photo::before{
+        display: none;
+    }
+    .Services{
+        height: 180vb;
+    }
+    .Services h2{
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+    .conent-Services-1{
+        width: 100%;
+    }
+    .Services h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 80px;
+    }
+    .Services h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 75px;
+    }
+    .conent-Services::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: -10px;
+    }
+    .portfolio{
+        height: 415vb;
+    }
+    .portfolio h2{
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+    .portfolio h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .portfolio h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 45px;
+    }
+    .conent-portfolio::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 2px;
+    }
+    .conent-portfolio-1{
+        padding-top: 30;
+    }
+    .conent-portfolio-1 p{
+        padding: 5px;
+    }
+    .conent-portfolio-2 img{
+        width: 100%;
+    }
+    .feedback h2{
+        font-size: 32;
+        padding-bottom: 50px;
+    }
+    .feedback h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .feedback h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 45px;
+    }
+    .content-feedback::after{
+        left: 38%;
+        bottom: 0;
+        top: -30px;
+    }
+    .content-feedback{
+        width: 400px;
+        height: 400px;
+    }
+
+    .feedback-photo img{
+        margin-right: 80px;
+    }
+    .feedback-photo{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .feedback-2{
+        width: 100%;
+    }
+    .feedback-2 p{
+        margin: 0;
+    }
+    .feedback-2 h3{
+        padding-bottom: 0;
+    }
+    .feedback-buttons::after{
+        left: 44%;
+        bottom: 0;
+    }
+    .feedback-buttons::before{
+        left: 50%;
+        bottom: 0;
+    }
+    .our-blog{
+        height: 350vb;
+    }
+    .our-blog h2{
+        font-size: 32;
+    }
+    .our-blog h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .our-blog h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 45px;
+    }
+    .content-our-blog::before{
+        left: 40%;
+        top: -60;
+    }
+    .content-our-blog-1{
+        width: 100%;
+    }
+    .content-our-blog-1 iframe{
+        height: 20%;
+    }
+    .contact h2{
+        font-size: 32;
+    }
+    .contact h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .contact h2::before{
+        left: 50%;
+        transform: translate(-90px);
+        bottom: 0;
+        top: 45px;
+    }
+
+    .forms::before{
+        left: 40%;
+        top: -60px;
+    }
+    #subject,#message{
+        width: 360px;
+    }
+    #message{
+        margin-top: 15px;
+        height: 35px;
+    }
+    .contact button{
+        left: 18%;
+    }
+}
+
+@media (min-width:768px) and (max-width : 992px) {
+    .logo{
+        width: 20%;
+    }
+    .nav{
+        width: 80%;
+    }
+    .about{
+        padding: 100 0;
+    }
+    .photo{
+        width: 50%;
+        /* padding-bottom: 30px; */
+    }
+    .content-about{
+        width: 50%;
+    }
+    .photo::before{
+        display: none;
+    }
+    .Services{
+        height: 100vb;
+    }
+    .Services h2{
+        font-size: 32px;
+        padding-bottom: 40px;
+    }
+    .conent-Services-1{
+        width: 50%;
+    }
+    .Services h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .Services h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 45px;
+    }
+    .conent-Services::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: -18px;
+    }
+    .portfolio{
+        height: 180vb;
+    }
+    .portfolio h2{
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+    .portfolio h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .portfolio h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 45px;
+    }
+    .conent-portfolio::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 2px;
+    }
+    .conent-portfolio-1{
+        padding-top: 30;
+    }
+
+    .conent-portfolio-2 img{
+        width: 50%;
+        float: left;
+    }
+    .feedback h2{
+        font-size: 32;
+        padding-bottom: 50px;
+    }
+    .feedback h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .feedback h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 45px;
+    }
+    .content-feedback::after{
+        left: 42.5%;
+        bottom: 0;
+        top: -30px;
+    }
+    .content-feedback{
+        width: 650px;
+        height: 300px;
+    }
+    .feedback-buttons::after{
+        left: 44%;
+        bottom: 0;
+    }
+    .feedback-buttons::before{
+        left: 50%;
+        bottom: 0;
+    }
+    /* .our-blog{
+        height: 350vb;
+    } */
+    .our-blog h2{
+        font-size: 32;
+    }
+    .our-blog h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .our-blog h2::before{
+        left: 50%;
+        transform: translate(-100px);
+        bottom: 0;
+        top: 45px;
+    }
+    .content-our-blog::before{
+        left: 43.5%;
+        top: -60;
+    }
+    .content-our-blog-1{
+        width: 28%;
+    }
+    .content-our-blog-1 iframe{
+        height: 20%;
+    }
+    .contact h2{
+        font-size: 32;
+    }
+    .contact h2::after{
+        left: 50%;
+        transform: translate(-50px);
+        bottom: 0;
+        top: 40px;
+    }
+    .contact h2::before{
+        left: 50%;
+        transform: translate(-90px);
+        bottom: 0;
+        top: 45px;
+    }
+
+    .forms::before{
+        left: 43.5%;
+        top: -60px;
+    }
+}
